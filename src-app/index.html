@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Install & Update 3NWeb apps</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css"></link>
+  </head>
+  <body>
+
+    <button onclick="checkForAllUpdates()">Check for all Updates</button>
+
+    <h2>Apps</h2>
+    <div>
+
+      <div id="find-app">
+        <input type="text" placeholder="App domain">
+        <button onclick="searches.findApp()">Find to Install</button>
+        <template id="found-app">
+          <div>
+            <div class="search-info"></div>
+            <div class="search-item-actions"></div>
+          </div>
+        </template>
+      </div>
+
+      <br>
+
+      <div id="apps-display"></div>
+      <template id="app-template">
+        <div>
+          <div class="app-domain"></div>
+          <div class="app-version"></div>
+          <div class="app-channel"></div>
+          <div class="app-available-updates"></div>
+          <div class="app-progress"></div>
+          <div class="app-actions"></div>
+          <br>
+        </div>
+      </template>
+    </div>
+
+    <h2>Platform</h2>
+    <template id="platform-template">
+      <div>
+        <div class="platform-version"></div>
+        <div class="platform-channel"></div>
+        <div class="platform-available-updates"></div>
+        <div class="platform-progress"></div>
+        <div class="platform-actions"></div>
+      </div>
+    </template>
+    <div id="platform-display"></div>
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "apps-installer.3nweb.computer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf app && cp -rf src-app app && tsc -p src-ts-code"
+  },
+  "author": {
+    "name": "3NSoft Inc.",
+    "url": "https://3nsoft.com",
+    "email": "hq@3nsoft.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"name": "3NWeb Apps installer",
+	
+	"appDomain": "installer.app.privacysafe.io",
+
+	"version": "0.1.6",
+
+	"capsRequested": {
+
+		"apps": "all",
+
+		"storage": {
+			"appFS": "default"
+		},
+
+		"logout": "all"
+
+	},
+
+	"windowOpts": {
+		"width": 320,
+		"height": 480
+	}
+}
